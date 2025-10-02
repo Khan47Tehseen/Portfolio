@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tehseen's Elysara</title>
+    <link rel = "stylesheet" href = "dreamy.css">
+</head>
+<body>
+    <a href="index.html" class="back-btn">&larr; Back to portfolio</a>
+
+    <header class = "realm-header">
+        <h1>Creative Realm</h1>
+        <p>Welcome to my world beyond code!</p>
+    </header>
+
+    <nav class = "realm-nav">
+        <button class = "realm-nav-btn active" onclick = "showSection('poetry')">Poetry Collection</button>
+        <button class = "realm-nav-btn" onclick = "showSection('achievements')">Achievements</button>
+    </nav>
+
+    <main class = "realm-content">
+        <section id = "poetry" class = "section active">
+            <h2>My Poetry Collection</h2>
+            <div class = "poetry-gallery">
+                <div class = "poem-photo-card" onclick = "openPhotoModel('Ruminate.jpg')">
+                   
+                    <img src = "Ruminate.jpg" alt = "Ruminate" class = "poem-image" tabindex="0">
+                   
+                    <div class = "poem-info">
+                        <h3>Ruminate</h3>
+                        <p>Click to view full poem</p>
+                    </div>
+                </div>
+
+                <div class = "poem-photo-card" onclick = "openPhotoModel('Wish.jpg')">
+                    
+                    <img src = "Wish.jpg" alt = "Wish" class = "poem-image" tabindex="0">
+                   
+                    <div class = "poem-info">
+                        <h3>Wish</h3>
+                        <p>Click to view full poem</p>
+                    </div>
+                </div>
+
+                <div class = "poem-photo-card" onclick = "openPhotoModel('Tear.jpg')">
+                    
+                    <img src = "Tear.jpg" alt = "Quote" class = "poem-image" tabindex="0">
+                   
+                    <div class = "poem-info">
+                        <h3>Tear</h3>
+                        <p>Click to view full quote</p>
+                    </div>
+                </div>
+
+                <div class = "poem-photo-card" onclick = "openPhotoModel(['Offbeat1.jpg','Offbeat.jpg']) ">
+                    <div class = "image-container">
+                       
+                        <img src = "Offbeat1.jpg" alt = "Offbeat" class = "poem-image" tabindex="0">
+                        <img src = "Offbeat.jpg" alt = "Offbeat" class = "poem-image" tabindex="0">
+                   
+                    </div>
+                    
+                    <div class = "poem-info">
+                        <h3>Offbeat</h3>
+                        <p>Click to view full poem</p>
+                    </div>
+                </div>
+
+                <div class = "poem-photo-card" onclick = "openPhotoModel('Longing.jpg')">
+                    
+                    <img src = "Longing.jpg" alt = "Longing" class = "poem-image" tabindex="0">
+                    
+                    <div class = "poem-info">
+                        <h3>Longing</h3>
+                        <p>Click to view full quote</p>
+                    </div>
+                </div>
+
+                <div class = "poem-photo-card" onclick = "openPhotoModel('Arrival.jpg')">
+                   
+                    <img src = "Arrival.jpg" alt = "Fullfil" class = "poem-image" tabindex="0">
+                   
+                    <div class = "poem-info">
+                        <h3>Answer</h3>
+                        <p>Click to view full quote</p>
+                    </div>
+                </div>
+
+                <div class = "poem-photo-card" onclick = "openPhotoModel('Sunset.jpg')">
+                   
+                    <img src = "Sunset.jpg" alt = "Sunset" class = "poem-image" tabindex="0">
+                   
+                    <div class = "poem-info">
+                        <h3>Sunset</h3>
+                        <p>Click to view full poem</p>
+                    </div>
+                </div>
+
+                <div class = "poem-photo-card" onclick = "openPhotoModel(['Trilling Birds.jpg','Trilling Birds2.jpg'])">
+                    <div class = "image-container">
+                   
+                    <img src = "Trilling Birds.jpg" alt = "Trilling Birds" class = "poem-image" tabindex="0">
+                    <img src = "Trilling Birds2.jpg" alt = "Trilling Birds" class = "poem-image" tabindex="0">
+                   
+                </div>
+                    <div class = "poem-info">
+                        <h3>Trilling Birds</h3>
+                        <p>Click to view full poem</p>
+                    </div>
+                </div>
+
+                <div class = "poem-photo-card" onclick = "openPhotoModel(['Solstice.jpg','Solstice2.jpg'])">
+                    <div class = "image-container">
+                   
+                    <img src = "Solstice.jpg" alt = "Solstice" class = "poem-image" tabindex="0">
+                    <img src = "Solstice2.jpg" alt = "Solstice" class = "poem-image" tabindex="0">
+                   
+                </div>
+                    <div class = "poem-info">
+                        <h3>Solstice</h3>
+                        <p>Click to view full poem</p>
+                    </div>
+                </div>
+
+                <div class = "poem-photo-card" onclick = "openPhotoModel('Reverie.jpg')">
+                   
+                    <img src = "Reverie.jpg" alt = "Reverie" class = "poem-image" tabindex="0">
+                   
+                    <div class = "poem-info">
+                        <h3>Reverie</h3>
+                        <p>Click to view full poem</p>
+                    </div>
+                </div>
+
+                <div class = "poem-photo-card" onclick = "openPhotoModel('Kinda.jpg')">
+                    
+                    <img src = "Kinda.jpg" alt = "Kinda" class = "poem-image" tabindex="0">
+                   
+                    <div class = "poem-info">
+                        <h3>Kinda Indiosyncratic</h3>
+                        <p>Click to view full poem</p>
+                    </div>
+                </div>
+
+                <div class = "poem-photo-card" onclick = "openPhotoModel('True People.jpg')">
+                    
+                    <img src = "True people.jpg" alt = "Scarce" class = "poem-image" tabindex="0">
+                   
+                    <div class = "poem-info">
+                        <h3>True People</h3>
+                        <p>Click to view full poem</p>
+                    </div>
+                </div>
+                <div class = "poem-photo-card" onclick = "openPhotoModel('Travis.jpg')">
+                    
+                    <img src = "Travis.jpg" alt = "Relinquish" class = "poem-image" tabindex="0">
+                   
+                    <div class = "poem-info">
+                        <h3>Relinquish Travis</h3>
+                        <p>Click to view full poem</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <!-- Coming soon -->
+         <section id="achievements" class="section">
+            <h2 style="text-align: center; margin-bottom: 30px; color: #6c5b7b;">🏆My Achievements</h2>
+            
+            <div class = "achieve">
+                <h3>State-Level Debate Competition</h3>
+                <p>Secured a top position among participants across the state,demonstrating strong communication,persuasion,and critical thinking skills.</p>
+            </div>
+
+            <div class = "achieve">
+                <h3>District &amp; Zonal Debate Competitions</h3>
+                <p>Achieved 1st place at both district and zonal levels,consistently recognized for leadership in public speaking and structured argumentation.</p>
+            </div>
+
+            <div class = "achieve">
+                <h3>Academic Excellence</h3>
+                <p>Ranked among the top performers at school and state level in classes 10th,11th and 12th,reflecting consistent dedication and academic rigor.</p>
+            </div>
+
+            <div class = "achieve">
+                <h3>Aloha Grandmaster(Abacus Program)</h3>
+                <p>Attained the Grandmaster title in the Aloha Mental Arithmetic program,with 3-time assessment topper recognition,showcasing analytical ability and speed in problem-solving.</p>
+            </div>
+
+            <div class = "achieve">
+                <h3>Wall of Fame Award</h3>
+                <p>Featured in the school's "Wall of Fame" for outstanding overall achievements in academics and extracurriculars.</p>
+            </div>
+
+            <div class = "achieve">
+                <h3>Cleanest Student of the Month(Multiple Recognitions)</h3>
+                <p>Awarded multiple times for discipline and excellence in conduct,reflecting responsibility and consistency.</p>
+            </div>
+        </section>
+   
+     </main>
+    <!-- Modal for displaying full images -->
+    <div class="modal" id="photoModal">
+        <div class="modal-content">
+            <button class="close-btn" onclick="closePhotoModel()">&times;</button>
+            <img id="modalImage" class="modal-image" src="" alt="Full poem">
+        </div>
+    </div>
+
+    <div class="zoom-modal">
+           <img class="zoom-modal-img">
+    </div>
+   <script src = "dreamy.js"></script>
+
+   <footer>
+            <p>Built with &hearts; by Khan Tehseen</p>
+        </footer>
+</body>
+</html>
